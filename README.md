@@ -1,2 +1,2 @@
 # Memory
-Création d'un memory en JS 
+Projet de memory en JS 
