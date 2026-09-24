@@ -1,3 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    padding: 20px; 
+    background-color: #f4f4f9;
+}
+
 #game-board {
     display: grid;
     grid-template-columns: repeat(4, 150px);
@@ -6,10 +16,10 @@
     width: max-content;
 }
 
-.card {
+.card { 
     width: 150px;
     height: 150px;
-    background-color: #2b2d42;
+    background-image: linear-gradient(rgb(112, 10, 91), rgb(93, 12, 255), rgb(156, 206, 238)); 
     border-radius: 8px;
     cursor: pointer;
 }
@@ -19,3 +29,35 @@
     height: 100%;
     border-radius: 8px;
 }
+
+#infos {
+    display: flex; 
+    gap: 30px; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+
+#result {
+    font-size: 1.3rem;
+    font-weight: bold; 
+    color: #2b2d42; 
+    margin-bottom: 10px;
+}
+
+#restart-btn {
+    padding: 10px 15px; 
+    font-size: 1rem;
+    cursor: pointer; 
+    border: none; 
+    background-color: #2b2d42;
+    border-radius: 5px; 
+    color: white; 
+}
+
+#restart-btn:hover {
+    background-color: #3d405b;
+}
+
+/*linearGradient;*/ 
